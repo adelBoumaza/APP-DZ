@@ -13,7 +13,7 @@ import dz.algerie.app.model.Wilaya;
 import dz.algerie.app.repository.CommuneRepository;
 import dz.algerie.app.repository.WilayaRepository;
 
-@RequestMapping("dz")
+@RequestMapping("api")
 @RestController
 public class AlgerieController {
 
@@ -33,9 +33,14 @@ public class AlgerieController {
 		return communeRepository.findAll();
 	}
 	
-	@GetMapping(value="/all/communesByWilaya/{name}")
+	@GetMapping(value="/all/communes/Wilaya/{name}")
 	public List<Commune> getAllCommunes(@PathVariable String name) {
 		return communeRepository.allCommunesByWilaya(name);
+	}
+	
+	@GetMapping(value="/all/communes/Wilaya/{id}/communes")
+	public List<Commune> getAllCommunes(@PathVariable Long id) {
+		return communeRepository.allCommunesByWilaya(id);
 	}
 	
 	
