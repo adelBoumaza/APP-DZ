@@ -12,8 +12,9 @@ You d'ont need to install it.
 
 ```
 Give examples
+
+http://51.178.87.186:9999/api/all/communes
+http://51.178.87.186:9999/api/all/communes/Wilaya/skikda
+http://51.178.87.186:9999/api/all/communes/Wilaya/16/communes
+http://51.178.87.186:9999/api/all/wilayas
 ```
-
-
-## Versioning
-https://github.com/your/project/tag
