@@ -14,5 +14,5 @@ public interface CommuneRepository extends JpaRepository<Commune, Long>{
 	List<Commune> allCommunesByWilaya(@Param("name") String name);
 	
 	@Query(value="From Commune c join c.wilaya w where w.id=:id")
-	List<Commune> allCommunesByWilaya(@Param("name") Long id);
+	List<Commune> allCommunesByWilaya(@Param("id") Long id);
 }
