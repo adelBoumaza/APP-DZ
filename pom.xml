@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>dz.algerie</groupId>
 	<artifactId>algerie-data</artifactId>
-	<version>0.0.1-SANPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>algerie-data</name>
 	<description>projet illustre les wilaya dalgerie</description>
 
