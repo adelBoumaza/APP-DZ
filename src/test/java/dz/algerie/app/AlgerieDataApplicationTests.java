@@ -3,10 +3,10 @@ package dz.algerie.app;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+// @SpringBootTest
 class AlgerieDataApplicationTests {
 
-	@Test
+	// s@Test
 	void contextLoads() {
 	}
 
