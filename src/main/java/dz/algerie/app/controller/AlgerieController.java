@@ -43,7 +43,7 @@ public class AlgerieController {
 		return communeRepository.allCommunesByWilaya(id);
 	}
 	
-	
-	
-	
-}
+	@GetMapping(value="/me")
+        public String getMe() {
+                return "  الهادي لبصيرة المدعو قشقوشة تع كامي،  صاحبو الرزقي تاع تيزي وزو المدعو الطيرو  ";
+        }
